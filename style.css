@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+}
+
+nav {
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #0077c2;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #0077c2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+#section-2{
+	overflow: hidden;
+	margin-top: 5em;
+	padding-top: 1em;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+.row #column1,
+.row #column2,
+.row #column3
+.row #column4{
+        float: left;
+        width: 320px;
+        padding: 80px 40px 80px 40px;
+}
+.column-title h2{
+    margin: 1em 0em;
+    font-size: 1.6em;
+    font-weight: 700;
+}
